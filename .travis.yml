@@ -14,3 +14,11 @@ before_script:
 script:
   - ng lint
   - ng build --prod --base-href https://gwas.github.io/
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: dist/gwas-blog
+  on:
+    branch: main
