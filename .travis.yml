@@ -13,7 +13,7 @@ before_script:
 
 script:
   - ng lint
-  - ng build --prod --base-href https://gwas.github.io/
+  - ng build --prod --base-href https://gwas.github.io/gwas-blog/
 
 deploy:
   provider: pages
