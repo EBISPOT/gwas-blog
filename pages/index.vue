@@ -16,8 +16,8 @@
                             <div v-for="article of articles" :key="article">
                                 <div class="column large-12 medium-12" style="padding: 0 5px; margin-bottom: 10px;">
                                     <div class="card-2 card-body card-3b my-card">
-                                        <h3 class="gwas-card-head">{{ article.title }} 
-                                            <em style="float:right; font-size:11px; color:#347883;"> {{article.date}} By {{ article.author }} </em> 
+                                        <h3 class="gwas-card-head">{{ article.title }}
+                                            <em style="float:right; font-size:11px; color:#347883;"> {{article.date}} By {{ article.author }} </em>
                                         </h3>
                                         <div class="gwas-card-body-one" style="margin-top:-15px;">
                                             <p class="mg-t-0">{{ article.description }} ... </p>
@@ -46,11 +46,11 @@ import Footer from "../components/Footer.vue";
 import Sidebar from '../components/Sidebar.vue';
 export default {
   components: { Footer },
-  
+
   async asyncData({ $content, params }) {
     const articles = await $content("blog", params.slug)
       .only(["title", "author", "date", "description", "img", "slug"])
-      .sortBy("createdAt", "desc")
+      .sortBy("createdAt", "asc")
       .fetch();
 
     return {
