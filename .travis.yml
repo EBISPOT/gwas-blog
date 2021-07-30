@@ -4,21 +4,26 @@ node_js:
 dist: trusty
 sudo: required
 
+cache:
+  directories:
+    - 'node_modules'
+    -
 branches:
   only:
     - main
 
 before_script:
-  - npm install -g @angular/cli
+  - npm install
 
 script:
-  - ng lint
-  - ng build --prod --base-href https://gwas.github.io/gwas-blog/
+  - echo "Skipping tests"
+  - npm run generate
 
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-  local_dir: dist/gwas-blog
+  target-branch: gh-pages
+  local-dir: dist
   on:
-    branch: main
+    branch: master
