@@ -3,7 +3,7 @@
     <div class="row">
       <div class="column medium-6">
         <span
-          >Copyright © EMBL-EBI 2017 | EMBL-EBI is an Outstation of the European
+          >Copyright © EMBL-EBI 2021 | EMBL-EBI is an outstation of the European
           Molecular Biology Laboratory
         </span>
       </div>
