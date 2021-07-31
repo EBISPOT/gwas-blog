@@ -2,7 +2,7 @@
 title: Ten years of the GWAS Catalog – Past, present and future
 author:  Laura Harris (GWAS Catalog) and Astrid Gall (Ensembl Outreach)
 date: Jun 28, 2018
-description: This year marks a special anniversary for the GWAS Catalog, as we have reached ten years since our launch in 2008. The GWAS Catalog is a widely used publicly available resource of all published human genome wide association studies (GWAS) and association results. Each GWAS study contains a wealth of information which is effectively inaccessible to researchers and clinicians without them spending a lot of time undertaking regular systematic reviews of the literature. This is where we can help you!
+description: This year marks a special anniversary for the GWAS Catalog, as we have reached ten years since our launch in 2008. The GWAS Catalog is a widely used publicly available resource of all published human genome wide association studies (GWAS) and association results. Each GWAS study contains a wealth of information which is effectively inaccessible to researchers 
 slug: ten-years-of-the-gwas-catalog-past-present-and-future
 img: blog-1.jpg
 ---

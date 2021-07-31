@@ -9,21 +9,21 @@
             <section class="gwas-gray20 body-section">
                 <div class="row margin-top-25">
 
-                    <!-- <Sidebar/> -->
+                    <Sidebar/>
 
-                    <div class="column large-10 medium-12 large-offset-1" style="padding: 0 5px;">
+                    <div class="column large-9 medium-12" style="padding: 0 5px;">
 
                         <div class="row">
                             <div class="column large-12 medium-12" style="padding: 0 5px;">
                                 <div class="card-2 card-body card-3b gwas-content-area">
-                                    <h2 class="gwas-card-head"> {{ article.title }} 
+                                    <h2 class="gwas-card-head"> {{ article.title }}
                                          <em style="float:right; font-size:11px;"> {{article.date}} By {{ article.author }} </em> </h2>
 
                                     <div style="margin: 0px; padding:15px; text-align:left; height:">
                                         <p style="margin-top:0px;">
 
                                           <nuxt-content :document="article" />
-                                          
+
                                         </p>
                                     </div>
                                 </div>
