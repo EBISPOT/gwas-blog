@@ -9,6 +9,7 @@
             <section class="gwas-gray20 body-section">
                 <div class="row margin-top-25">
 
+                  <div><!-- style="width: 89.33333333%; margin-left: 5.33333333%" -->
                     <Sidebar/>
 
                     <div class="column large-9 medium-12" style="padding: 0 5px">
@@ -33,6 +34,7 @@
                             </div>
                         </div>
                     </div>
+                  </div>
                 </div>
             </section>
         </main>
