@@ -12364,3 +12364,10 @@ a.card--gray60:hover, a.card--gray60:focus {
 .gwas-content-area{
   padding:0px; min-height: 710px; margin: 0px;
 }
+
+a:active, a:focus {
+    outline: 0;
+    border: none;
+    box-shadow: none;
+    -moz-outline-style: none;
+}

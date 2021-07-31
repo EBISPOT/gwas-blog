@@ -9,9 +9,9 @@
             <section class="gwas-gray20 body-section">
                 <div class="row margin-top-25">
 
-                    <!-- <Sidebar/> -->
+                    <Sidebar/>
 
-                    <div class="column large-10 medium-12 large-offset-1" style="padding: 0 5px">
+                    <div class="column large-9 medium-12" style="padding: 0 5px">
                         <div class="row">
                             <div v-for="article of articles" :key="article">
                                 <div class="column large-12 medium-12" style="padding: 0 5px; margin-bottom: 10px;">
