@@ -2,7 +2,7 @@
 title: Trait annotation in the GWAS Catalog
 author: Elliot Sollis
 date: August 3, 2021
-description: Each study in the GWAS Catalog investigates the association between variants in the human genome and a particular trait or phenotypic characteristic. For each study, we annotate the trait in two ways, a reported trait that reflects the author’s description of the disease or phenotypic characteristic under investigation. This is a free text description and sometimes
+description: Each study in the GWAS Catalog investigates the association between variants in the human genome and a particular trait or phenotypic characteristic. For each study, we annotate the trait in two ways, a reported trait that reflects the author’s description of the disease or phenotypic characteristic under investigation. This is a free text description and sometimes. 
 slug: background-trait-update
 img: blog-1.jpg
 ---
