@@ -3,7 +3,7 @@ title: A new standard for GWAS summary statistics
 author: Laura Harris
 date: July 20, 2022
 description: Today we are very pleased to share our manuscript describing a new standard format for GWAS summary statistics, GWAS-SSF. The work towards this goal began in 2017 when we began to host summary statistics in the GWAS Catalog. It rapidly became apparent that summary statistics were formatted in a whole host of different ways, with only a few features in common between them, and little has changed since, with a recent analysis of 327 summary statistics files finding over 100 unique formats.
-slug: manuscript-standard
+slug: new-standard-for-gwas-summary-statistics
 img: blog-1.jpg
 ---
 
