@@ -1,0 +1,1 @@
+__NUXT_JSONP__("manifest.js", {routes:["\u002F","\u002Ften-years-of-the-gwas-catalog-past-present-and-future","\u002Fopen-sharing-of-cancer-summary-statistics","\u002Fbackground-trait-update","\u002Fnew-standard-for-gwas-summary-statistics","\u002Feverything-you-need-to-know-about-the-new-gwas-catalog"]})
