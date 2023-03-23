@@ -5,13 +5,13 @@
             <h3 class="gwas-card-head"> Catalog summary </h3>
 
             <div class="gwas-card-body-one">
-                <p class="tx-uppercase tx-11 tx-color-03 mg-t-10-n">RELEASED: 2021-07-08</p>
+                <p class="tx-uppercase tx-11 tx-color-03 mg-t-10-n">RELEASED: 2022-07-09</p>
                 <h3 class="tx-normal genome-text">GENOME ASSEMBLY <small class="text-muted tx-light">GRCh38.p13</small>
                 </h3>
                 <div class="d-flex mg-b-25 mg-t-10-n">
-                    <p class="tx-11 mg-b-0"><span class="tx-medium tx-success ">PUBLICATIONS</span> 5,183 </p>
+                    <p class="tx-11 mg-b-0"><span class="tx-medium tx-success ">PUBLICATIONS</span> 5,848 </p>
                     <p class="tx-11 tx-rubik mg-b-0 mg-l-10">
-                      <span class="tx-medium text-primary mg-r-5"> ASSOCIATIONS </span> 272,610 </p>
+                      <span class="tx-medium text-primary mg-r-5"> ASSOCIATIONS </span> 398,342 </p>
                 </div>
 
                 <div class="d-flex mg-b-25 mg-t-5-n">
@@ -32,7 +32,6 @@
 
 
             <div class="gwas-side-menu">
-
 
                 <div class="gwas-side-row">
                     <p class="tx-medium">
