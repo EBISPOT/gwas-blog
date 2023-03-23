@@ -1,6 +1,9 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  router: {
+    base: '/gwas-blog/'
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -31,10 +34,6 @@ export default {
     'https://code.highcharts.com/modules/data.js',
     'https://code.highcharts.com/modules/drilldown.js'
   ],
-
-  router: {
-    base: '/gwas-blog/'
-  },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
