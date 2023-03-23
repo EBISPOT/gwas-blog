@@ -33,7 +33,6 @@
 
             <div class="gwas-side-menu">
 
-
                 <div class="gwas-side-row">
                     <p class="tx-medium">
                         <a href="https://www.ebi.ac.uk/gwas/search?query=Yao" target="_blank"> Publications </a>
