@@ -5,6 +5,7 @@ date: 22 March 2023
 description: Next month the GWAS Catalog is switching to a NEW summary statistics format. Find out more about what this means for submitters and consumers of summary statistics
 slug: gwas-ssf-release
 img: blog-1.jpg
+
 ---
 
 ## The new summary statistics format is coming - what you need to know
