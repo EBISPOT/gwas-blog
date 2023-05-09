@@ -1,3 +1,13 @@
+title: GWAS Catalog web search updates - help us with testing
+
+author: GWAS Catalog team
+
+date: 5 May 2023
+
+description: We are pleased to announce the release of a new version of the GWAS Catalog web search interface, which is available for testing at www.ebi.ac.uk/gwas/labs. Here is a guide to the main differences you will see.
+
+slug: gwas-ui-labs-release-2023
+
 # New GWAS web search interface ready for testing
 
 We are excited to announce the release of a new version of the GWAS Catalog web search interface, which is available for testing on our [labs site](www.ebi.ac.uk/gwas/labs).
