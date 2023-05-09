@@ -4,7 +4,7 @@ author: GWAS Catalog team
 date: 22 March 2023
 description: Next month the GWAS Catalog is switching to a NEW summary statistics format. Find out more about what this means for submitters and consumers of summary statistics
 slug: gwas-ssf-release
-img: ...
+img: blog-1.jpg
 ---
 
 ## The new summary statistics format is coming - what you need to know
@@ -30,9 +30,9 @@ No. Your data will be made available in the old format (upon journal publication
 **I want to start preparing my submission now, but won’t be ready to submit till after April 12th. How can I find instructions on how to prepare the new format?**
 
 Detailed documentation on the new format is available as follows:
-1. [Summary statistics data file preparation](https://www.ebi.ac.uk/gwas/docs/gwas-ssf/summary-statistics-format)
-2. [Submission instructions for summary statistics and sample metadata](https://www.ebi.ac.uk/gwas/docs/gwas-ssf/submission-summary-statistics-plus-metadata)
-3. [Submission instructions for summary statistics only](https://www.ebi.ac.uk/gwas/docs/gwas-ssf/submission-summary-statistics) (for publications with metadata already available in the GWAS Catalog).
+- [Summary statistics data file preparation](https://www.ebi.ac.uk/gwas/docs/gwas-ssf/summary-statistics-format)
+- [Submission instructions for summary statistics and sample metadata](https://www.ebi.ac.uk/gwas/docs/gwas-ssf/submission-summary-statistics-plus-metadata)
+- [Submission instructions for summary statistics only](https://www.ebi.ac.uk/gwas/docs/gwas-ssf/submission-summary-statistics) (for publications with metadata already available in the GWAS Catalog).
 
 An example new-style metadata template is available to download [here](http://ftp.ebi.ac.uk/pub/databases/gwas/sumstats_and_meta_submission_template_v1_11.xlsx)
 A recorded [webinar](https://www.ebi.ac.uk/training/events/data-submission-genome-wide-association-studies-gwas-catalog/) is available, describing the submission process and the new format.
