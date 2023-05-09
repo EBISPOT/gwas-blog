@@ -10,6 +10,8 @@ description: We are pleased to announce the release of a new version of the GWAS
 
 slug: gwas-ui-labs-release-2023
 
+img: blog-1.jpg
+
 ---
 
 # New GWAS web search interface ready for testing
