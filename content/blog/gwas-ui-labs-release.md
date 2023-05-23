@@ -9,7 +9,7 @@ img: blog-1.jpg
 
 # New GWAS web search interface ready for testing
 
-We are excited to announce the release of a new version of the GWAS Catalog web search interface, which is available for testing on our [labs site](www.ebi.ac.uk/gwas/labs).
+We are excited to announce the release of a new version of the GWAS Catalog web search interface, which is available for testing on our [labs site](https://www.ebi.ac.uk/gwas/labs).
 
 This is a guide to the main differences you will see.
 
