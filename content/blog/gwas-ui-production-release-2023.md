@@ -25,7 +25,7 @@ Interested to find studies with full genomewide summary statistics available for
 
 Interested to find the study with the biggest sample size for your trait of interest? Just use the sort option on the Discovery sample number columnn, which now sorts by the total number of samples in the Discovery stage, irrespective of ancestry groups: 
 
-<article-image src="gwas-ui-production-release-2023/SlideD.png" alt="gwas-catalog"></article-image>
+<article-image src="gwas-ui-production-release-2023/SlideD.jpg" alt="gwas-catalog"></article-image>
 
 Hope you enjoy using the new features! Please report any bugs to gwas-info@ebi.ac.uk or via [GitHub](https://github.com/EBISPOT/gwas-ui/issues)
 
