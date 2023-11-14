@@ -20,7 +20,7 @@ Cohort abbreviations from discovery stage GWAS either are extracted from the lit
 Where a sample cohort in the literature was not already in the predefined list at the time of curation, or was ambiguously described, “other” will appear in our studies download file. Where a sample in the literature had no cohort reported, “NR” will appear in our studies download file. Consortium names are extracted if the component cohorts are not provided, or there are too many component cohorts to curate.  Empty cohort fields appear for studies curated before the pilot work to extract this information began (~2020).
 We also accept submissions of unpublished data and these are listed in separate download files. Cohorts appearing in the unpublished download files are yet to undergo in-house curation and therefore may not exactly match against the predefined list.
 
-Cohort data annotations for published studies are also now available via the REST API, accessible via the /studies and /studies/{accessionId} endpoints. 
+Cohort data annotations for published studies are also now available via the REST API, accessible via the /studies and /studies/{accessionId} endpoints. The field is called *cohort*. 
 
 As well as cohort data, the new studies downloads also contain clear annotation of which studies have full genomewide summary statistics available for download in the column FULL SUMMARY STATISTICS with the ftp location available in the adjacent column SUMMARY STATS LOCATION. 
 
