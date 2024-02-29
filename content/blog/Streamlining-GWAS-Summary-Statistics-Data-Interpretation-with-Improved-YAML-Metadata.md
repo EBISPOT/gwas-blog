@@ -11,13 +11,11 @@ description: ...
 slug: Streamlining-GWAS-Summary-Statistics-Data-Interpretation-with-Improved-YAML-Metadata
 
 ---
-Having clear and accessible metadata is essential for enhancing data interpretation and ensuring its reusability. In the case of Genome-Wide Association Studies (GWAS), having a standardized and easy-to-understand format for documenting study metadata is crucial. In the GWAS Catalog, metadata associated with full genome-wide summary statistics files is accessible via multiple routes - searchable in the main Catalog via the website and REST API, and additionally via a YAML file contained in the same directory as the data file.   
-
-YAML files, known for their user-friendly format, provide an ideal combination of structured information and ease of use for humans and computers when it comes to managing and understanding GWAS studies. 
+Having clear and accessible metadata is essential for enhancing data interpretation and ensuring its reusability. In the case of Genome-Wide Association Studies (GWAS), having a standardized and easy-to-understand format for documenting study metadata is crucial. In the GWAS Catalog, metadata associated with full genome-wide summary statistics files is accessible via multiple routes - searchable in the main Catalog via the website and REST API, and additionally via a text file in YAML format, contained in the same directory as the data file.   
 
 We have identified key fields that should be included in the metadata for a comprehensive understanding, interpretation, and subsequent reuse of GWAS studies. Mandatory fields document essential study details and optional fields cater to specific study designs (such as case/control counts in case-control studies), and provide supplementary analysis information. You can find detailed information about these fields in Table 1 and in our recent preprint (Hayhurst et al 2023 https://www.biorxiv.org/content/10.1101/2022.07.15.500230v4).
 
-In our latest release, we've introduced several updates to the GWAS metadata YAML file format. These changes aim to enhance the human readability of the files with a clearer, more unambiguous, and user-friendly experience without compromising the file's compatibility with automated systems. Here’s an overview of the significant enhancements:
+In our latest release, we've introduced several updates to the GWAS metadata YAML file format. The YAML format, known it's user-friendliness, provides a combination of structured information and ease of use for humans and computers. The latest changes aim to enhance the human readability of the files with a clearer, more unambiguous, and user-friendly experience without compromising the file's compatibility with automated systems. Here’s an overview of the significant enhancements:
 
 1. Reordering and Grouping of Fields:
 * The fields within the YAML files have been reorganized and grouped by related topics, each marked with a group name starting with '#' (group names are listed in Table 1). This organization helps users to quickly locate specific fields by group name, such as '# Sample Information', making the file more navigable for humans. Importantly, this structural refinement does not affect the way machines parse and interpret the data.
@@ -31,7 +29,7 @@ In our latest release, we've introduced several updates to the GWAS metadata YAM
 4. Addition of 'Ancestry Category' Field:
 * We have introduced a new 'ancestry category' field in addition to the existing 'ancestry' field. This new feature provides a broad overview of the ancestry category that best describes the sample, allowing for a more generalized view of the sample's ancestry.  This new field also ensures consistency and facilitates comparative analysis across different studies, in line with the rest of the Catalog. 
 
-These updates reflect our commitment to improving the user experience while ensuring the YAML files maintain their structural integrity for computer readability. Our focus continues to be on making the GWAS metadata YAML file more accessible, interpretable, and useful for researchers.
+These updates reflect our commitment to improving the user experience while ensuring the YAML files maintain their structural integrity for computer readability. Our focus continues to be on making GWAS metadata more accessible, interpretable, and useful for researchers.
 
 
 Table 1. Metadata field definitions
@@ -71,3 +69,6 @@ Table 1. Metadata field definitions
 | is_harmonised                    | Description of harmonisation codes                                                 | Text string                                             | Only given in harmonised datasets   | false                                                                                                                |
 | is_sorted                        | Flag whether the file is sorted by genomic location                                | Boolean                                                 | Yes                                 | false                                                                                                                |
 | harmonisation_reference          | The genome reference file used for harmonising the summary statistics file         | Text string                                             | No                                  | ftp://ftp.ensembl.org/pub/release-104/fasta/homo_sapiens/dna/                                                        |
+## Questions and feedback
+
+Questions or comments about this change? Please contact us as gwas-info@ebi.ac.uk.
