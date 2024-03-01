@@ -1,16 +1,11 @@
 ---
-
 title: Streamlining GWAS Summary Statistics Data Interpretation with Improved YAML Metadata
-
 author: Yue Ji and Laura Harris
-
 date: Feburary 22, 2024
-
-description: ...
-
-slug: Streamlining-GWAS-Summary-Statistics-Data-Interpretation-with-Improved-YAML-Metadata
-
+description: Having clear and accessible metadata is essential for enhancing data interpretation and ensuring its reusability. In the case of Genome-Wide Association Studies (GWAS), having a standardized and easy-to-understand format for documenting study metadata is crucial. In the GWAS Catalog, metadata associated with full genome-wide summary statistics files is accessible via multiple routes - searchable in the main Catalog via the website and REST API, 
+slug: streamlining-GWAS-Summary-Statistics-Data-Interpretation-with-Improved-YAML-Metadata
 ---
+
 Having clear and accessible metadata is essential for enhancing data interpretation and ensuring its reusability. In the case of Genome-Wide Association Studies (GWAS), having a standardized and easy-to-understand format for documenting study metadata is crucial. In the GWAS Catalog, metadata associated with full genome-wide summary statistics files is accessible via multiple routes - searchable in the main Catalog via the website and REST API, and additionally via a text file in YAML format, contained in the same directory as the data file.   
 
 We have identified key fields that should be included in the metadata for a comprehensive understanding, interpretation, and subsequent reuse of GWAS studies. Mandatory fields document essential study details and optional fields cater to specific study designs (such as case/control counts in case-control studies), and provide supplementary analysis information. You can find detailed information about these fields in Table 1 and in our recent preprint (Hayhurst et al 2023 https://www.biorxiv.org/content/10.1101/2022.07.15.500230v4).
