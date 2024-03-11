@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Fgwas-blog\u002F_nuxt\u002Fstatic\u002F1710168468",layout:"default",error:a,serverRendered:true,routePath:"\u002Fopen-sharing-of-cancer-summary-statistics",config:{_app:{basePath:"\u002Fgwas-blog\u002F",assetsPath:"\u002Fgwas-blog\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"06618372"}}}}(null));
