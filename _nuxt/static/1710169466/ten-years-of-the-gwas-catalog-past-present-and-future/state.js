@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Fgwas-blog\u002F_nuxt\u002Fstatic\u002F1710169466",layout:"default",error:a,serverRendered:true,routePath:"\u002Ften-years-of-the-gwas-catalog-past-present-and-future",config:{_app:{basePath:"\u002Fgwas-blog\u002F",assetsPath:"\u002Fgwas-blog\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"4460a30e"}}}}(null));
