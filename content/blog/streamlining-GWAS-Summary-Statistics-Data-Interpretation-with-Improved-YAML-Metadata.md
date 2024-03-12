@@ -29,7 +29,7 @@ These updates reflect our commitment to improving the user experience while ensu
 
 
 Table 1. Metadata field definitions
-<article-image src="streamlining-GWAS-Summary-Statistics-Data-Interpretation-with-Improved-YAML-Metadata/meta_yaml.png" alt="Metadata field definitions"></article-image>
+<article-image src="streamlining-GWAS-Summary-Statistics-Data-Interpretation-with-Improved-YAML-Metadata/meta_yaml.png" alt="Metadata field definitions" style='height: 100%; width: 100%'></article-image>
 
 ## Questions and feedback
 
