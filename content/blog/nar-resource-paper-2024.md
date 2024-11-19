@@ -25,7 +25,7 @@ New features enable faster page loading and allow you to easily find GxE studies
 <article-image src="nar-resource-paper-2024/Fig2.tif" alt="gwas-catalog-new-software"></article-image>
 
 
-The lack of diversity in genomics data continues to be an issue! We share our thoughts on how to enable monitoring of diversity and inclusion in GWAS studies while taking care that the language we use to describe populations does not lead to misuse. [New documentation and terminology](https://www.ebi.ac.uk/gwas/population-descriptors) (labels instead of categories) guide our users towards correct interpretation.
+The lack of diversity in genomics data continues to be an issue. We share our thoughts on how to enable monitoring of diversity and inclusion in GWAS studies while taking care that the language we use to describe populations does not lead to misuse. [New documentation and terminology](https://www.ebi.ac.uk/gwas/population-descriptors) (labels instead of categories) guide our users towards correct interpretation.
 Our analysis found that only around 50% of GWAS samples reported in the literature are being defined by genetic similarity measures, of those less than half clearly described a reference panel.  
 <article-image src="nar-resource-paper-2024/SupFig3.png" alt="gwas-catalog"></article-image>
 
