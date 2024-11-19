@@ -21,7 +21,7 @@ The GWAS-SSF standard for full genome-wide summary statistics data and metadata 
 We have seen a huge growth in molecular quantitative trait GWAS (proteomic, lipidomic & metabolomic measurements) and are working with our colleagues at the Experimental Factor Ontology to improve mapping to chemical entities. 
 <article-image src="nar-resource-paper-2024/Fig1.tif" alt="molecular-gwas"></article-image>
 
-New features enable faster page loading and allow you to easily find GxE studies in our website and download files, preparing the way for anticipated growth in GxE data is anticipated to grow as the scale of exposome data expands. Thanks to funding from the [Human Ecosystems Transversal Theme](https://www.embl.org/about/info/human-ecosystems/) at EMBL-EBI!
+New features enable faster page loading and allow you to easily find GxE studies in our website and download files, preparing the way for anticipated growth in GxE data is anticipated to grow as the scale of exposome data expands. Thanks to funding from the [Human Ecosystems Transversal Theme](https://www.embl.org/about/info/human-ecosystems/) at EMBL-EBI to enable this new feature!
 <article-image src="nar-resource-paper-2024/Fig2.tif" alt="gwas-catalog-new-software"></article-image>
 
 
