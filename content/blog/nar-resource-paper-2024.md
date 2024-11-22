@@ -13,7 +13,7 @@ slug: nar-resource-paper-2024
 img: ...
 
 ---
-**We are very happy to announce the GWAS Catalog’s [latest resource update paper](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkae1070/7893318) in Nucleic Acids Research!**
+**We're happy to announce the GWAS Catalog’s [latest resource update paper](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkae1070/7893318) in Nucleic Acids Research!**
 
 <article-image src="nar-resource-paper-2024/graphical-abstract.png" alt="gwas-catalog"></article-image>
 
