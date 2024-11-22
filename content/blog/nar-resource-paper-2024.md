@@ -18,6 +18,7 @@ img: ...
 <article-image src="nar-resource-paper-2024/graphical-abstract.png" alt="gwas-catalog"></article-image>
 
 Here’s a hint of what you can find inside:
+
 The **GWAS-SSF standard** for full genome-wide summary statistics data and metadata has been fully implemented in our submission pipeline. More than 30k files have been submitted containing ALL mandatory data & metadata fields, on top of 50k files in the previous format.  We’ve also scaled our **harmonisation pipeline** to keep up with the increased rate of data submission - now 92% of all summary statistics with the necessary data content have a [harmonised version](https://www.ebi.ac.uk/gwas/docs/methods/summary-statistics#_directories)  available. 
 
 We have seen a huge growth in **molecular quantitative trait GWAS** (proteomic, lipidomic & metabolomic measurements) and are working with our colleagues at the Experimental Factor Ontology to improve mapping to chemical entities. 
