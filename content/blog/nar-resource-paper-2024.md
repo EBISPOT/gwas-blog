@@ -15,6 +15,8 @@ img: ...
 ---
 **We are very happy to announce the GWAS Catalog’s [latest resource update paper](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkae1070/7893318) in Nucleic Acids Research!**
 
+<article-image src="nar-resource-paper-2024/graphical-abstract.png" alt="gwas-catalog"></article-image>
+
 Here’s a hint of what you can find inside:
 The **GWAS-SSF standard** for full genome-wide summary statistics data and metadata has been fully implemented in our submission pipeline. More than 30k files have been submitted containing ALL mandatory data & metadata fields, on top of 50k files in the previous format.  We’ve also scaled our **harmonisation pipeline** to keep up with the increased rate of data submission - now 92% of all summary statistics with the necessary data content have a [harmonised version](https://www.ebi.ac.uk/gwas/docs/methods/summary-statistics#_directories)  available. 
 
@@ -27,7 +29,7 @@ New features enable faster page loading and allow you to easily find **GxE studi
 
 The **lack of diversity** in genomics data continues to be an issue. We share our thoughts on how to enable monitoring of diversity and inclusion in GWAS studies while taking care that the **language** we use to describe populations does not lead to misuse. [New documentation and terminology](https://www.ebi.ac.uk/gwas/population-descriptors) (labels instead of categories) guide our users towards correct interpretation.
 Our analysis found that only around 50% of GWAS samples reported in the literature are being defined by genetic similarity measures, of those less than half clearly described a reference panel.  
-<article-image src="nar-resource-paper-2024/graphical-abstract.png" alt="gwas-catalog"></article-image>
+<article-image src="nar-resource-paper-2024/SupFig3.png" alt="gwas-catalog"></article-image>
 
 UKB is still the most used cohort in GWAS, accounting for around 30% of all studies in the Catalog! Unfortunately 70% of these restrict analysis to samples with the European population label, losing a significant amount of diversity. New inclusion of **cohort** names in Catalog data now enables this analysis, and in future linking out to rich cohort metadata. 
 <article-image src="nar-resource-paper-2024/Fig3.png" alt="gwas-catalog-diversity"></article-image>
