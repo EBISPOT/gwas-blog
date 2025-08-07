@@ -15,7 +15,7 @@ New endpoints (including publications, genes, genomic context, and ancestries), 
 
 We’ve also made technical improvements to increase resiliency and scaling, applying industry standard architectural standards. 
 
-Extensive documentation is available, including a detailed reference manual containing endpoints, schemas, parameters, syntax and more, and including a visual, interactive interface for exploring and testing the endpoints. If you’re new to programmatic analysis, you might like to check out our Jupyter notebook tutorial. To get started, please go to our documentation page [link] where you’ll find links to all of these.  The previous API version will be available alongside v2 until May 2026, so you’ll need to switch over your pipelines before then.  
+Extensive documentation is available, including a detailed reference manual containing endpoints, schemas, parameters, syntax and more, and including a visual, interactive interface for exploring and testing the endpoints. If you’re new to programmatic analysis, you might like to check out our Jupyter notebook tutorial. To get started, please go to our https://www.ebi.ac.uk/gwas/docs/api[documentation page] where you’ll find links to all of these.  The previous API version will be available alongside v2 until May 2026, so you’ll need to switch over your pipelines before then.  
 
 Thanks to all our testers and survey respondents, and a special thank you to our super-user Ramiro Magno, developer of the gwasrapidd package, for making this work possible! 
 
