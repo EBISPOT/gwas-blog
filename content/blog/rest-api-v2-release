@@ -7,7 +7,7 @@ slug: rest-api-v2-release
 img: blog-1.jpg
 ---
 
-We’re pleased to announce the release of the GWAS Catalog REST API, Version 2.0! 
+We’re pleased to announce the release of the GWAS Catalog REST API, Version 2.0!
 
 Supporting programmatic access to the GWAS Catalog’s curated dataset, the REST API has been completely redesigned based on user feedback, to facilitate a robust and resilient mechanism for delivering the growing volume of data. The new design aims to provide all the tools you need to perform complex queries and effectively integrate GWAS Catalog data services into your scientific pipelines, scripts, and web applications. 
 
