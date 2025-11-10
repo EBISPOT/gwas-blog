@@ -1,10 +1,11 @@
 ---
 title: Changes to associations tsv download file 
 author: GWAS Catalog
-date: Nov 10th, 2025
 description: If you use the GWAS Catalog “All associations” tsv download file, you may have noticed we’ve made some changes.The GWAS Catalog recently passed an incredible milestone of >1m curated associations! This is a huge achievement for the genomics community. However, it presents challenges for some users in analysing the data, since the “All associations” file now has more
 slug: association-file-update
-img: 
+img:
+date: 2025-11-10
+displayDate: Nov 10, 2025
 ---
 
 If you use the GWAS Catalog “All associations” tsv download file, you may have noticed we’ve made some changes.

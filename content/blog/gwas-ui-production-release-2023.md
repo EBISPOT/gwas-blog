@@ -1,10 +1,11 @@
 ---
 title: GWAS Catalog web search - new release!
 author: GWAS Catalog team
-date: 12 July 2023
 description: We are pleased to announce the release of a new version of the GWAS Catalog web search interface, which is now in production. Here is a guide to the main differences you will see.
 slug: gwas-ui-production-release-2023
 img: blog-1.jpg
+date: 2023-07-12
+displayDate: 12 July 2023
 ---
 
 # New GWAS web search interface

@@ -1,10 +1,11 @@
 ---
 title: Everything you need to know about the new GWAS Catalog
 author: Annalisa Buniello
-date: Jun 13, 2018
 description: Genetic evidence could double the rate of success in drug targets identification - so the scientific community predicts. With this in mind, it is crucial for Open Targets to be able to feed as many SNP-trait associations as possible into its pipeline for systematic target identification and validation.
 slug: everything-you-need-to-know-about-the-new-gwas-catalog
 img: blog-1.jpg
+date: 2018-03-13
+displayDate: Jun 13, 2018
 ---
 
 Genetic evidence could double the rate of success in drug targets identification - so the scientific community predicts. With this in mind, it is crucial for Open Targets to be able to feed as many SNP-trait associations as possible into its pipeline for systematic target identification and validation.

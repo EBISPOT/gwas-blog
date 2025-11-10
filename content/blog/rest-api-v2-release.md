@@ -1,10 +1,11 @@
 ---
 title: The GWAS Catalog REST API Version 2.0 is here!
 author: Laura Harris
-date: 11 August 2025
 description: The GWAS Catalog has released a completely redesigned REST API, supporting programmatic access to the curated data. Find out more about the new features and timeline for switching over.  
 slug: rest-api-v2-release
 img: blog-1.jpg
+date: 2025-08-11
+displayDate: 11 August 2025
 ---
 
 We’re pleased to announce the release of the GWAS Catalog REST API, Version 2.0!

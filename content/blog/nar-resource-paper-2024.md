@@ -1,17 +1,11 @@
 ---
-
 title: Our new resource update paper is out in Nucleic Acids Research!
-
 author: GWAS Catalog team
-
-date: Nov 20, 2024
-
 description: We are very happy to announce the GWAS Catalog’s latest resource update paper in Nucleic Acids Research! We discuss standards for reusability, sustainability and diversity, new software features, and more.... 
-
 slug: nar-resource-paper-2024
-
 img: ...
-
+date: 2024-11-20
+displayDate: Nov 20, 2024
 ---
 **We're happy to announce the GWAS Catalog’s [latest resource update paper](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkae1070/7893318) in Nucleic Acids Research!**
 
