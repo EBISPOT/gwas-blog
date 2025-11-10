@@ -1,10 +1,11 @@
 ---
 title: Cohorts now available in the GWAS Catalog
 author: GWAS Catalog team
-date: Nov 14, 2023
 description: We are pleased to announce our latest data release includes a new version of the Catalog studies downloads containing additional fields describing the discovery stage (genome-wide) cohorts used in each study (see below for more details), and clearer information on the availability of full genomewide summary statistics. 
 slug: cohorts-now-available
 img: blog-1.img
+date: 2023-11-14
+displayDate: Nov 14, 2023
 ---
 We are pleased to announce our latest data release includes a new version of the Catalog studies downloads containing additional fields describing the discovery stage (genome-wide) cohorts used in each study (see below for more details), and clearer information on the availability of full genomewide summary statistics. 
 

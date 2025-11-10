@@ -1,11 +1,11 @@
 ---
 title: New submissions standard - release date
 author: GWAS Catalog team
-date: 22 March 2023
 description: Next month the GWAS Catalog is switching to a NEW summary statistics format. Find out more about what this means for submitters and consumers of summary statistics
 slug: gwas-ssf-release
 img: blog-1.jpg
-
+date: 2023-03-22
+displayDate: March 22, 2023
 ---
 
 ## The new summary statistics format is coming - what you need to know

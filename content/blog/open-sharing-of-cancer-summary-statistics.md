@@ -1,10 +1,11 @@
 ---
 title: Sharing is caring, why we need more freely available cancer GWAS summary statistics
 author: Annalisa Buniello
-date: March 11, 2021
 description: The NHGRI-EBI GWAS Catalog is a central resource for the Genome Wide Association Study (GWAS) community, demonstrating the benefit of expert data curation and integration of full p-value GWAS summary statistics into a central repository for variant-trait associations. For more than 10 years, the Catalog has aimed to make GWAS data FAIR (Findable, Accessible, Interoperable and Re-usable)
 slug: open-sharing-of-cancer-summary-statistics
 img: blog-1.jpg
+date: 2021-03-11
+displayDate: March 11, 2021
 ---
 
 The [NHGRI-EBI GWAS Catalog](https://www.ebi.ac.uk/gwas/) is a central resource for the Genome Wides Association Study (GWAS) community, demonstrating the benefit of expert data curation and integration of full p-value GWAS summary statistics into a central repository for variant-trait associations.
