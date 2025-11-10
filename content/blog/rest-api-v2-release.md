@@ -1,0 +1,23 @@
+---
+title: The GWAS Catalog REST API Version 2.0 is here!
+author: Laura Harris
+description: The GWAS Catalog has released a completely redesigned REST API, supporting programmatic access to the curated data. Find out more about the new features and timeline for switching over.  
+slug: rest-api-v2-release
+img: blog-1.jpg
+date: 2025-08-11
+displayDate: 11 August 2025
+---
+
+We’re pleased to announce the release of the GWAS Catalog REST API, Version 2.0!
+
+Supporting programmatic access to the GWAS Catalog’s curated dataset, the REST API has been completely redesigned based on user feedback, to facilitate a robust and resilient mechanism for delivering the growing volume of data. The new design aims to provide all the tools you need to perform complex queries and effectively integrate GWAS Catalog data services into your scientific pipelines, scripts, and web applications. 
+
+New endpoints (including publications, genes, genomic context, and ancestries), allow users to create previously complex queries in a dynamic and simple manner. More data is exposed such as cohorts, background traits, full free text sample description, terms/license and other fields, which were previously accessible only in the GUI and downloads. Ontology powered search functionality, more search and filtering features, and additional integrated data from other sources such as Ensembl help to provide a richer user experience. 
+
+We’ve also made technical improvements to increase resiliency and scaling, applying industry standard architectural standards. 
+
+Extensive documentation is available, including a detailed reference manual containing endpoints, schemas, parameters, syntax and more, and including a visual, interactive interface for exploring and testing the endpoints. If you’re new to programmatic analysis, you might like to check out our Jupyter notebook tutorial. To get started, please go to our [documentation page](https://www.ebi.ac.uk/gwas/docs/api) where you’ll find links to all of these.  The previous API version will be available alongside v2 until May 2026, so you’ll need to switch over your pipelines before then.  
+
+Thanks to all our testers and survey respondents, and a special thank you to our super-user Ramiro Magno, developer of the gwasrapidd package, for making this work possible! 
+
+As always, if you have any questions, please reach out to our helpdesk gwas-info@ebi.ac.uk.

@@ -18,7 +18,7 @@
                                 <div class="column large-12 medium-12" style="padding: 0 5px; margin-bottom: 10px;">
                                     <div class="card-2 card-body card-3b my-card">
                                         <h3 class="gwas-card-head">{{ article.title }}
-                                            <em style="float:right; font-size:11px; color:#347883;"> {{article.date}} By {{ article.author }} </em>
+                                            <em style="float:right; font-size:11px; color:#347883;"> {{article.displayDate}} By {{ article.author }} </em>
                                         </h3>
                                         <div class="gwas-card-body-one" style="margin-top:-15px;">
                                             <p class="mg-t-0">{{ article.description }} ... </p>
@@ -51,8 +51,8 @@ export default {
 
   async asyncData({ $content, params }) {
     const articles = await $content("blog", params.slug)
-      .only(["title", "author", "date", "description", "img", "slug"])
-      .sortBy("createdAt", "desc")
+      .only(["title", "author", "description", "img", "slug", "date", "displayDate"])
+      .sortBy("date", "desc")
       .fetch();
 
     return {

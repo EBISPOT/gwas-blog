@@ -1,10 +1,11 @@
 ---
 title: A new standard for GWAS summary statistics
 author: Laura Harris
-date: July 20, 2022
 description: Today we are very pleased to share our manuscript describing a new standard format for GWAS summary statistics, GWAS-SSF. The work towards this goal began in 2017 when we began to host summary statistics in the GWAS Catalog. It rapidly became apparent that summary statistics were formatted in a whole host of different ways, with only a few features in common between them, and little has changed since, with a recent analysis of 327 summary statistics
 slug: new-standard-for-gwas-summary-statistics
 img: blog-1.jpg
+date: 2022-07-20
+displayDate: July 20, 2022
 ---
 
 Today we are very pleased to share our manuscript describing a new standard format for GWAS summary statistics, [GWAS-SSF](https://www.biorxiv.org/content/10.1101/2022.07.15.500230v1). The work towards this goal began in 2017 when we began to host summary statistics in the GWAS Catalog. It rapidly became apparent that summary statistics were formatted in a whole host of different ways, with only a few features in common between them, and little has changed since, with a [recent analysis](https://academic.oup.com/bioinformatics/article/37/23/4593/6380562) of 327 summary statistics files finding over 100 unique formats. We were about to launch the GWAS Catalog author submission system and needed to enforce a standard format as QC on submissions, and to ensure that submitted data could be passed through our harmonisation pipeline. So we quickly developed a [minimal standard format](https://pubmed.ncbi.nlm.nih.gov/30445434/) based on the most commonly included fields, with variant ID/genomic location and p-value as mandatory fields, and standard headers for other fields such as beta and CI. This was enough for our goal of getting data into the GWAS Catalog. But we heard many consumers of the data complain that datasets with the minimum mandatory fields did not meet their requirements, for example to use the data for Mendelian randomisation or to generate polygenic scores. We needed to encourage our submitters to share their data more fully. A second issue is that while the GWAS Catalog curates metadata from the literature, there is no standard for GWAS metadata reporting, resulting in missing data that limits re-use of the summary statistics.
