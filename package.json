@@ -11,9 +11,9 @@
     "deploy2": "push-dir --dir=dist --branch=gh-pages"
   },
   "dependencies": {
-    "@nuxt/content": "^1.9.0",
+    "@nuxt/content": "^3.14.0",
     "core-js": "^3.15.1",
-    "nuxt": "^2.15.7"
+    "nuxt": "^2.18.1"
   },
   "devDependencies": {
     "gh-pages": "^4.0.0",
