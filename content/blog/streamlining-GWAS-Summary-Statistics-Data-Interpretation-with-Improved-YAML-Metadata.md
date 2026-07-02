@@ -1,7 +1,8 @@
 ---
 title: Streamlining GWAS Summary Statistics Data Interpretation with Improved YAML Metadata
 author: Yue Ji and Laura Harris
-date: Feburary 22, 2024
+date: 2024-02-22
+displayDate: February 22, 2024
 description: Having clear and accessible metadata is essential for enhancing data interpretation and ensuring its reusability. In the case of Genome-Wide Association Studies (GWAS), having a standardized and easy-to-understand format for documenting study metadata is crucial. In the GWAS Catalog, metadata associated with full genome-wide summary statistics files is accessible via multiple routes - searchable in the main Catalog via the website and REST API, 
 slug: streamlining-GWAS-Summary-Statistics-Data-Interpretation-with-Improved-YAML-Metadata
 img: meta_yaml.png
