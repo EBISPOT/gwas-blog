@@ -4,7 +4,7 @@ author: "GWAS Catalog"
 description: "The volume of GWAS data continues to grow rapidly, with the number of associations in the Catalog having now topped 1 million. It’s already possible to submit full genomewide summary statistics and metadata to the Catalog, either before or after journal publication, and these are prioritised for inclusion in the Catalog."
 slug: "share-metadata-top-associations"
 img: ""
-date: "2026-06-12"
+date: 2026-06-12
 displayDate: "June 12, 2026"
 ---
 
