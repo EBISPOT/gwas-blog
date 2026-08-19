@@ -5,13 +5,16 @@
             <h3 class="gwas-card-head"> Catalog summary </h3>
 
             <div class="gwas-card-body-one">
-                <p class="tx-uppercase tx-11 tx-color-03 mg-t-10-n">RELEASED: 2022-07-09</p>
-                <h3 class="tx-normal genome-text">GENOME ASSEMBLY <small class="text-muted tx-light">GRCh38.p13</small>
+                <p class="tx-uppercase tx-11 tx-color-03 mg-t-10-n">RELEASED: 2026-08-02</p>
+                <h3 class="tx-normal genome-text">GENOME ASSEMBLY <small class="text-muted tx-light">GRCh38.p14</small>
                 </h3>
-                <div class="d-flex mg-b-25 mg-t-10-n">
-                    <p class="tx-11 mg-b-0"><span class="tx-medium tx-success ">PUBLICATIONS</span> 5,848 </p>
-                    <p class="tx-11 tx-rubik mg-b-0 mg-l-10">
-                      <span class="tx-medium text-primary mg-r-5"> ASSOCIATIONS </span> 398,342 </p>
+                <p class="tx-uppercase tx-11 tx-color-03 mg-b-10">dbSNP BUILD <span class="tx-medium">156</span></p>
+                <div class="mg-b-25 mg-t-10-n">
+                    <p class="tx-11 mg-b-5"><span class="tx-medium tx-success">PUBLICATIONS</span> 7,784 </p>
+                    <p class="tx-11 tx-rubik mg-b-5">
+                      <span class="tx-medium text-primary mg-r-5"> TOP ASSOCIATIONS </span> 1,188,619 </p>
+                    <p class="tx-11 tx-rubik mg-b-0">
+                      <span class="tx-medium text-primary mg-r-5"> FULL SUMMARY STATISTICS </span> 193,739 </p>
                 </div>
 
                 <div class="d-flex mg-b-25 mg-t-5-n">
@@ -126,4 +129,3 @@
 </div>
 <!-- End of side bar -->
 </template>
-

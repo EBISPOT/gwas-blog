@@ -16,8 +16,8 @@
                         <div class="row">
                             <div class="column large-12 medium-12" style="padding: 0 5px;">
                                 <div class="card-2 card-body card-3b gwas-content-area">
-                                    <h2 class="gwas-card-head"> {{ article.title }}
-                                         <em style="float:right; font-size:11px;"> {{article.date}} By {{ article.author }} </em> </h2>
+                                    <h2 class="gwas-card-head gwas-article-title">{{ article.title }}</h2>
+                                    <div class="gwas-article-meta">{{ article.displayDate }} · By {{ article.author }}</div>
 
                                     <div style="margin: 0px; padding:15px; text-align:left; height:">
                                         <p style="margin-top:0px;">
