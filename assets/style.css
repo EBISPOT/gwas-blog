@@ -2849,6 +2849,107 @@ pre code {
   padding: 0
 }
 
+/* Blog article content: keep API examples readable and make Markdown tables
+   look like tables without changing the site's other code examples. */
+.gwas-content-area .nuxt-content code,
+.gwas-content-area .nuxt-content pre {
+  color: #263238;
+  background-color: #f7f9fa;
+}
+
+.gwas-content-area .nuxt-content code {
+  padding: 2px 4px;
+}
+
+.gwas-content-area .nuxt-content pre {
+  border: 1px solid #c7d5d9;
+  border-left: 4px solid #347883;
+  border-radius: 2px;
+  padding: 12px 14px;
+  border-color: #b9d9bd;
+  border-left-color: #218739;
+  background-color: #f0faf1;
+}
+
+.gwas-content-area .nuxt-content pre code {
+  padding: 0;
+}
+
+.gwas-content-area .nuxt-content pre.api-example-legacy {
+  border-color: #e3bcbc;
+  border-left-color: #b33a3a;
+  background-color: #fff1f1;
+}
+
+.gwas-content-area .nuxt-content pre.api-example-current {
+  border-color: #b9d9bd;
+  border-left-color: #218739;
+  background-color: #f0faf1;
+}
+
+.gwas-content-area .nuxt-content ul.api-v2-list {
+  margin: 18px 0 24px;
+  padding: 14px 18px 14px 42px;
+  border: 1px solid #b9d9bd;
+  border-left: 4px solid #218739;
+  border-radius: 2px;
+  background-color: #f0faf1;
+}
+
+.gwas-content-area .nuxt-content ol.api-migration-checklist {
+  margin: 18px 0 28px;
+  padding: 14px 18px 14px 48px;
+  border: 1px solid #e3bcbc;
+  border-left: 4px solid #b33a3a;
+  border-radius: 2px;
+  background-color: #fff1f1;
+}
+
+.gwas-content-area .nuxt-content ol.api-migration-checklist li {
+  padding: 5px 0 5px 6px;
+}
+
+.gwas-content-area .nuxt-content table {
+  width: 100%;
+  margin: 20px 0 28px;
+  border: 1px solid #c7d5d9;
+  table-layout: fixed;
+  font-size: 13px;
+}
+
+.gwas-content-area .nuxt-content th,
+.gwas-content-area .nuxt-content td {
+  border: 1px solid #c7d5d9;
+  padding: 9px 10px;
+  vertical-align: top;
+  text-align: left;
+  line-height: 1.35;
+}
+
+.gwas-content-area .nuxt-content th {
+  background-color: #e7f1f3;
+  color: #245b64;
+  font-weight: 700;
+}
+
+.gwas-content-area .nuxt-content th:first-child,
+.gwas-content-area .nuxt-content td:first-child {
+  width: 18%;
+}
+
+@media only screen and (max-width: 48em) {
+  .gwas-content-area .nuxt-content table {
+    display: block;
+    overflow-x: auto;
+    table-layout: auto;
+  }
+
+  .gwas-content-area .nuxt-content th,
+  .gwas-content-area .nuxt-content td {
+    min-width: 150px;
+  }
+}
+
 sup {
   line-height: 0;
   font-size: 65%;
@@ -12329,6 +12430,105 @@ a.card--gray60:hover, a.card--gray60:focus {
   color: #000;
   padding: 13px 18px;
   border-bottom: 1px solid rgba(72, 94, 144, 0.16);
+}
+
+.gwas-article-title {
+  margin-bottom: 0;
+  font-size: 27px;
+  line-height: 1.2;
+}
+
+.gwas-article-meta {
+  padding: 0 18px 13px;
+  color: #347883;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.api-callout {
+  position: relative;
+  margin: 24px 0;
+  padding: 14px 18px 14px 48px;
+  border: 1px solid #c7d5d9;
+  border-left: 5px solid #347883;
+  border-radius: 3px;
+  background: #f7f9fa;
+  color: #263238;
+}
+
+.api-callout::before {
+  position: absolute;
+  left: 16px;
+  top: 12px;
+  color: #347883;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.api-callout-v2::before {
+  content: '✓';
+}
+
+.api-status {
+  display: inline-block;
+  min-width: 1.2em;
+  margin-right: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
+
+.api-status-legacy {
+  color: #b33a3a;
+}
+
+.api-status-current {
+  color: #218739;
+}
+
+.api-data-highlights {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin: 18px 0 24px;
+}
+
+.api-data-highlight {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  min-height: 72px;
+  padding: 14px;
+  border: 1px solid #c7d5d9;
+  border-radius: 3px;
+  background: #f7f9fa;
+  color: #263238;
+}
+
+.api-data-icon {
+  flex: 0 0 28px;
+  width: 28px;
+  height: 28px;
+  fill: none;
+  stroke: #347883;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.6;
+}
+
+.api-data-highlight strong {
+  color: #245b64;
+}
+
+@media only screen and (max-width: 48em) {
+  .gwas-article-title {
+    font-size: 22px;
+  }
+
+  .api-data-highlights {
+    grid-template-columns: 1fr;
+  }
 }
 
 .gwas-card-body-one {
