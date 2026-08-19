@@ -2887,6 +2887,26 @@ pre code {
   background-color: #f0faf1;
 }
 
+.gwas-content-area .nuxt-content pre.api-example-current,
+.gwas-content-area .nuxt-content pre.api-example-current code,
+.gwas-content-area .nuxt-content pre.language-text,
+.gwas-content-area .nuxt-content pre.language-text code,
+.gwas-content-area .nuxt-content ul.api-v2-list code {
+  color: #111111;
+}
+
+.gwas-content-area .nuxt-content .api-legacy-note {
+  margin: 18px 0;
+  padding: 12px 14px;
+  border: 1px solid #b33a3a;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.gwas-content-area .nuxt-content .api-legacy-note code {
+  color: #8f2222;
+}
+
 .gwas-content-area .nuxt-content ul.api-v2-list {
   margin: 18px 0 24px;
   padding: 14px 18px 14px 42px;

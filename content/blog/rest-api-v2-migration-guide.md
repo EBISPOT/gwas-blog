@@ -20,7 +20,7 @@ If you currently use the v1 API in scripts, pipelines or applications, this post
 
 The GWAS Catalog has grown considerably since the original REST API was developed. V1 provides access to studies, associations, variants and traits, but its design increasingly made complex queries difficult.
 
-For example, v1 exposes separate search endpoints such as `findByPubmedId`, `findByRsId` and `findByEfoTrait`. Searching SNPs includes an endpoint called `findIdsByLocationsChromosomeNameAndLocationsChromosomePositionBetween`.
+<div class="api-legacy-note">For example, v1 exposes separate search endpoints such as <code>findByPubmedId</code>, <code>findByRsId</code> and <code>findByEfoTrait</code>. Searching SNPs includes an endpoint called <code>findIdsByLocationsChromosomeNameAndLocationsChromosomePositionBetween</code>.</div>
 
 V2 takes a different approach. Resources can be queried directly using filters, and additional entities such as publications, genes and ancestries have their own endpoints. The redesign is intended to provide a more robust and scalable API while making complex queries easier to construct.
 
