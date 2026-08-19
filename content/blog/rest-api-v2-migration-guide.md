@@ -34,7 +34,7 @@ The v1 column is included only to help existing users find and replace legacy co
 | --- | --- | --- |
 | Base path | `/gwas/rest/api/...` | `/gwas/rest/api/v2/...` |
 | Query model | Separate `/search/findBy...` endpoints | Filters applied directly to resource endpoints |
-| Parameter naming | Mostly camelCase, such as `pubmedId` | Mostly snake_case, such as `pubmed_id` |
+| Query parameter naming | Search parameters commonly use camelCase, such as `pubmedId` | Query parameters use snake_case, such as `pubmed_id` |
 | Response design | HAL/hypermedia with `_links` and `_embedded` | Redesigned v2 resource responses |
 | Studies and associations | `/studies` and `/associations` | `/v2/studies` and `/v2/associations`, with richer filtering |
 | Variants | `/singleNucleotidePolymorphisms` | Redesigned single-nucleotide-polymorphism resource |
@@ -149,7 +149,7 @@ V2 retains variant and rsID-based querying, but uses the redesigned v2 resource 
 
 Update both the endpoint URLs and any code that depends on the structure of v1 SNP responses.
 
-## HAL and projections are no longer the centre of the API
+## Changes to response handling and projections
 
 V1 is explicitly a hypermedia API using HAL. Responses contain `_links`, and the v1 documentation advises users to follow these links instead of constructing URLs themselves. Collections additionally place records under `_embedded`.
 
