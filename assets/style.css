@@ -2893,6 +2893,9 @@ pre code {
 .gwas-content-area .nuxt-content pre.language-text code,
 .gwas-content-area .nuxt-content ul.api-v2-list code {
   color: #111111;
+  font-family: inherit;
+  font-weight: 600;
+  letter-spacing: 0;
 }
 
 .gwas-content-area .nuxt-content .api-legacy-note {
