@@ -5,7 +5,7 @@ description: The GWAS Catalog REST API v2 provides simpler queries, richer filte
 slug: rest-api-v2-migration-guide
 img: blog-1.jpg
 date: 2026-08-19
-displayDate: 19 August 2026
+displayDate: Aug 19, 2026
 ---
 
 The [GWAS Catalog REST API v2](https://www.ebi.ac.uk/gwas/docs/api) is now available, providing a redesigned way to access curated GWAS Catalog data programmatically.
