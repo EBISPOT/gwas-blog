@@ -77,6 +77,8 @@ V2 also provides additional study properties, pagination and sorting. Questions 
 
 The v2 release also exposes additional data including cohorts, background traits and fuller free-text sample descriptions.
 
+## More first-class resources
+
 V1 is centred primarily around four major resources:
 studies, associations, SNPs and EFO traits.
 
@@ -163,7 +165,7 @@ Both versions paginate large result sets. V1 returns 20 records by default and d
 
 V2 also defaults to 20 records per page. Applications retrieving complete result sets should follow the next links returned by the API rather than assuming that the first response contains every result.
 
-V2 additionally documents a rate limit of 15 queries per second. When this is exceeded, subsequent calls are slowed. Pipelines making many requests should account for both pagination and throttling.
+V2 additionally has a rate limit of 15 queries per second. When this is exceeded, subsequent calls are slowed. Pipelines making many requests should account for both pagination and throttling.
 
 ## More Catalog data through the API
 
@@ -200,7 +202,7 @@ New endpoints for publications, genes, genomic contexts and ancestries also allo
 
 Before you switch over, check these nine things:
 
-If you maintain a pipeline or application using v1, migration should be treated as a small API upgrade project rather than a URL substitution.
+If you maintain a pipeline or application using v1, migration should be treated as a small API upgrade project, not just a URL substitution.
 
 In particular, check the following:
 
